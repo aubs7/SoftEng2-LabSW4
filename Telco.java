@@ -14,12 +14,12 @@ public class Telco implements TelcoSubscription{
 
     @Override
     public String accept(UsagePromo usagePromo, double price){
-        return usagePromo.showAllowance(telcoName, price);
+        return usagePromo.showAllowance(this.telcoName, price);
     }
 
     @Override
     public String accept(UnliCallsTextOffer unliCallsTextOffer, boolean unliCallsText){
-        return unliCallsTextOffer.showUnliCallsTextOffer(telcoName, unliCallText);
+        return unliCallsTextOffer.showUnliCallsTextOffer(this.telcoName, this.unliCallText);
     }
 
     public void setTelcoName(String telcoName){
@@ -30,12 +30,20 @@ public class Telco implements TelcoSubscription{
         this.promoPrice = promoPrice;
     }
 
+    public void setUnliCallText(boolean unliCallText){
+        this.unliCallText = unliCallText;
+    }
+
     public String getTelcoName(){
         return telcoName;
     }
 
-    public Double getPromoPrice(){
+    public double getPromoPrice(){
         return promoPrice;
+    }
+
+    public boolean getUnliCallText() {
+        return unliCallText;
     }
 
 }
