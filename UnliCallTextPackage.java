@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class UnliCallTextPackage implements UnliCallTextOffer{
+public class UnliCallTextPackage implements UnliCallsTextOffer{
 
     private static Map<String, boolean> offerMap = new HashMap<String, boolean>();
 

@@ -1,6 +1,6 @@
 public interface TelcoSubscription {
 
-    public double accept(UsagePromo usagePromo, double price);
-    public double accept(UnliCallsTextOffer unliCallsTextOffer, boolean unliCallsText);
+    public String accept(UsagePromo usagePromo, double price);
+    public String accept(UnliCallsTextOffer unliCallsTextOffer, boolean unliCallsText);
 
 }
