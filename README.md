@@ -5,4 +5,5 @@ Imagine you are looking for a new mobile plan for your smartphone. Three major t
     Globe: Provides a data allowance of 10 GB for ₱450 per month. This plan comes with unlimited calls and texts to subscribers within their network. Calls and texts to other networks are charged extra.
     Ditto: Offers a data allowance of 8 GB for ₱400 per month. This plan includes unlimited calls and texts to all networks within the country.
 
-Implement the visitor design pattern based from the given diagram
+![image](https://github.com/aubs7/SoftEng2-LabSW4/assets/142388266/8937307a-795c-4751-b535-1ce2e4681898)
+
